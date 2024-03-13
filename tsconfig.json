@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "strict": true,
+        "target": "es6",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        // configuration for dependency injection with typedi
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false
+    },
+    "include": ["src/**/*"]
+}
